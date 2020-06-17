@@ -55,6 +55,9 @@ h1 {
 #fp-nav ul li a.active span {
   background-color: rgb(8, 253, 237);
 }
+#fp-nav {
+  display: none;
+}
 /* ------------ */
 /* Menu */
 li {
@@ -207,9 +210,6 @@ a:hover:before {
   }
   .fp-tableCell {
     height: calc(100vh - 4rem) !important;
-  }
-  #fp-nav {
-    display: none;
   }
   #menu {
     flex-direction: row;
