@@ -14,7 +14,8 @@ const App = () => (
   <ReactFullpage
     menu={"#menu"}
     scrollingSpeed={800}
-    easingCss3={"cubic-bezier(0.785, 0.135, 0.15, 0.86)"}
+    easing={'easeInOutCubic'}
+    scrollBar={true}
     anchors={anchors}
     navigation={true}
     navigationPosition={"right"}

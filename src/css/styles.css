@@ -8,6 +8,9 @@
 }
 /* ------------ */
 /* Global */
+html {
+  overflow: hidden !important;
+}
 body {
   font-family: arial, helvetica;
   background-color: rgb(30, 30, 30);
@@ -27,11 +30,18 @@ body {
 .grey {
   color: rgb(150, 150, 150);
 }
+.color {
+  color: rgb(8, 253, 237);
+}
 pre {
-  margin: 0.5em 0em;
+  margin: 0.5em 0;
+  line-height: 1.5em;
 }
 h1 {
   margin: 0;
+}
+.inline {
+  display: inline;
 }
 /* ------------ */
 /* Margins */
@@ -76,6 +86,10 @@ a {
 #social a:hover {
   color: rgb(8, 253, 237);
 }
+.nav-items i, .nav-items a {
+  height: 2rem;
+  width: 100%;
+}
 .nav-items a:hover i {
   display: none;
   color: rgb(8, 253, 237);
@@ -85,6 +99,7 @@ a:hover:before {
   font-size: 0.75rem;
   content: attr(new-data);
   color: rgb(8, 253, 237);
+  margin-top: 0.5rem;
 }
 /* End Static Styles */
 
@@ -100,7 +115,7 @@ a:hover:before {
     font-size: 1rem;
   }
 }
-@media screen and (min-height: 700px) and (min-width: 610px) {
+@media screen and (min-height: 810px) and (min-width: 610px) {
   .section {
     font-size: 1.25rem;
   }
@@ -110,7 +125,6 @@ a:hover:before {
     font-size: 1.5rem;
   }
 }
-
 /* Menu Start*/
 /* Static */
 #menu {
@@ -229,6 +243,10 @@ a:hover:before {
   #social {
     display: none;
   }
+  .nav-items i, .nav-items a {
+    height: 100%;
+    width: 3rem;
+  }
 }
 /* Top Small - Phone */
 @media screen and (max-width: 500px) {
@@ -280,7 +298,9 @@ a:hover:before {
 /* About */
 #about-text {
   width: 70%;
-  max-width: 30em;
+  max-width: 40em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* Home */
 .contact-button {
@@ -419,4 +439,86 @@ input:focus {
 .submit-button:hover {
   color: rgb(30, 30, 30);
   background-color: rgb(8, 253, 237);
+}
+
+@media screen and (max-height: 500px) and (min-width: 500px) {
+  .circle-wrapper {
+    display: flex !important;
+  }
+  .flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 0 !important;
+    width: 50% !important;
+    justify-content: left !important;
+  }
+}
+.circle-wrapper {
+  display: block;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 80%;
+  max-width: 40em;
+  margin-left: 5%;
+}
+
+.single-chart {
+  width: 25%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 20vh;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: rgb(53, 53, 53);
+  stroke-width: 1.25;
+}
+
+.circle {
+  fill: rgb(30, 30, 30);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+
+}
+.circle.active {
+  animation: progress 3s ease-out forwards;
+  stroke: white;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+
+
+.percentage {
+  fill: rgb(150, 150, 150);
+  font-family: sans-serif;
+  font-size: 0.3rem;
+  text-anchor: middle;
+}
+#skill-com {
+  display: inline;
+}
+#skill-comment {
+  width: 70%;
+  max-width: 40em;
+  font-size: 1em;
+  margin-left: 10%;
+}
+#about, #skills, #contact {
+  margin-top: 30rem;
+  margin-bottom: 30rem;
 }

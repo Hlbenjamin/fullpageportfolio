@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Charts from "./Charts";
+import Circle from "./Circle";
+import Typist from "react-typist";
+
 
 class Skills extends Component {
   state = {};
@@ -32,7 +35,15 @@ class Skills extends Component {
             </pre>
           </Fade>
           <div id="charts">
-            <Charts />
+            <Circle />
+            <div id="skill-comment">
+              <p className="grey">
+              <Typist>
+                <Typist.Delay ms={3500} />
+                  <pre className="inline grey">{`<--! `}</pre>Additional skills include Adobe Photoshop, Adobe Illustrator, teamwork and communication.<pre className="inline grey">{` -->`}</pre>
+              </Typist>
+              </p>
+            </div>
           </div>
           <Fade bottom delay={1000}>
             <pre>

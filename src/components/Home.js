@@ -3,6 +3,7 @@ import "react-typist/dist/Typist.css";
 import Typist from "react-typist";
 import Fade from "react-reveal/Fade";
 
+
 class Home extends Component {
   state = {};
   render() {
@@ -48,7 +49,7 @@ class Home extends Component {
               <span className="code ml-2">{`<a href="contact">`}</span>
             </pre>
           </Fade>
-          <a href="#contact" className="contact-button ml-4">
+          <a href="#4thPage" className="contact-button ml-4">
             Contact Me
           </a>
           <Fade bottom delay={1000}>

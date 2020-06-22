@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 
+
 class About extends Component {
   state = {};
   render() {
@@ -31,15 +32,21 @@ class About extends Component {
             </pre>
           </Fade>
           <p id="about-text" className="ml-4">
-            I am a 27 year old developer born and raised in Los Angeles. I love
-            traveling, photography, fitness, nutition and programming.
+            My name is Hunter Benjamin. I am 27 years old and was born and raised 
+            in Los Angeles, California. I have spent the last 7 years working in 
+            the film and televsion industry.
             <br></br>
-            <br></br> Between coding, researching, working out and eating
-            healthy, I spend nearly all day everyday working to become better
-            than I was the day before.<br></br>
-            <br></br>Some of my interestes in the tech field include but are not
-            limited to; machine learning, data science, responsive design and
-            advanced UI/UX.
+            <br></br>
+            I spent the 6 months prior to the Covid-19 pandemic in Indonesia 
+            working on my photography and surfing. Upon coming home I decided it 
+            was time for a career change. I began learning Python and immediately 
+            fell in love with programming.
+            <br></br>
+            <br></br>
+            I’ve spent the last 4 months taking Codecademy courses on Computer Science, 
+            Python, Javascript, HTML, CSS as well as a fair amount of independent studying. 
+            I am now looking for work as a developer where I can be challenged and continue 
+            building my programming skills.
           </p>
           <Fade bottom delay={800}>
             <pre>
