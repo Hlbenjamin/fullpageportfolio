@@ -35,17 +35,17 @@ class Menu extends Component {
           </div>
           <div id="social">
             <li>
-              <a href="#">
-                <i className="fa fa-twitter"></i>
+              <a href="https://github.com/Hlbenjamin">
+                <i className="fa fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fa fa-facebook"></i>
+              <a href="https://www.instagram.com/hunterlbenjamin/">
+                <i className="fa fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="www.linkedin.com/in/hunterlbenjamin">
                 <i className="fa fa-linkedin"></i>
               </a>
             </li>

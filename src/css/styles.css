@@ -2,9 +2,9 @@
 /* ------------ */
 /* Display */
 .fp-tableCell {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
 }
 /* ------------ */
 /* Global */
