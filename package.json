@@ -2,7 +2,7 @@
   "name": "fullpageportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hlbenjamin.io/fullpageportfolio",
+  "homepage": "http://Hlbenjamin.io/fullpageportfolio",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.17",
     "@testing-library/jest-dom": "^4.2.4",
