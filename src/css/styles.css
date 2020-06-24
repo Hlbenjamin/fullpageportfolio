@@ -155,7 +155,6 @@ a:hover:before {
   color: rgb(150, 150, 150);
   text-decoration: none;
 }
-
 /* Menu Side Large */
 @media screen and (min-width: 769px) and (min-height: 501px) {
   .section {
@@ -313,85 +312,6 @@ a:hover:before {
   color: rgb(30, 30, 30);
   background-color: rgb(8, 253, 237);
 }
-/* Charts */
-#chart {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 10em;
-  line-height: 0.1em;
-}
-.bar {
-  display: flex;
-  align-items: center;
-  height: 1.5em;
-}
-.label {
-  width: 15em;
-  text-align: right;
-}
-.progress {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 1em;
-  align-items: center;
-  position: relative;
-  display: flex;
-  height: 0.5em;
-  width: 25vw;
-  max-width: 10em;
-}
-/* Chart Animations */
-.active-1 {
-  animation: load1 3s normal forwards;
-  animation-delay: 0.5s;
-  box-shadow: 0 10px 40px -10px #fff;
-  border-radius: 100px;
-  background: #fff;
-  height: 0.4em;
-  width: 0;
-}
-@keyframes load1 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 20%;
-  }
-}
-.active-2 {
-  animation: load2 3s normal forwards;
-  animation-delay: 0.5s;
-  box-shadow: 0 10px 40px -10px #fff;
-  border-radius: 100px;
-  background: #fff;
-  height: 0.4em;
-  width: 0;
-}
-@keyframes load2 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 40%;
-  }
-}
-.active-3 {
-  animation: load3 3s normal forwards;
-  animation-delay: 0.5s;
-  box-shadow: 0 10px 40px -10px #fff;
-  border-radius: 100px;
-  background: #fff;
-  height: 0.4em;
-  width: 0;
-}
-@keyframes load3 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-}
 /* Contact */
 #contact-form {
   width: 30em;
@@ -441,6 +361,7 @@ input:focus {
   background-color: rgb(8, 253, 237);
 }
 
+/* Cirle Charts */
 @media screen and (max-height: 500px) and (min-width: 500px) {
   .circle-wrapper {
     display: flex !important;
@@ -456,7 +377,6 @@ input:focus {
 .circle-wrapper {
   display: block;
 }
-
 .flex-wrapper {
   display: flex;
   flex-flow: row nowrap;
@@ -465,60 +385,97 @@ input:focus {
   max-width: 40em;
   margin-left: 5%;
 }
-
 .single-chart {
   width: 25%;
   justify-content: space-around ;
 }
-
 .circular-chart {
   display: block;
   margin: 10px auto;
   max-width: 80%;
   max-height: 20vh;
 }
-
 .circle-bg {
   fill: none;
   stroke: rgb(53, 53, 53);
   stroke-width: 1.25;
 }
-
 .circle {
   fill: rgb(30, 30, 30);
   stroke-width: 1.5;
   stroke-linecap: round;
-
 }
 .circle.active {
   animation: progress 3s ease-out forwards;
   stroke: white;
 }
-
 @keyframes progress {
   0% {
     stroke-dasharray: 0 100;
   }
 }
-
-
-
 .percentage {
   fill: rgb(150, 150, 150);
   font-family: sans-serif;
   font-size: 0.3rem;
   text-anchor: middle;
 }
-#skill-com {
-  display: inline;
+
+@media screen and (max-width: 500px) {
+  .section {
+    font-size: 2vh;
+  }
+  .ml-1 {
+    margin-left: 0.5em;
+  }
+  .ml-2 {
+    margin-left: 1em;
+  }
+  .ml-3 {
+    margin-left: 1.5em;
+  }
+  .ml-4 {
+    margin-left: 2em;
+  }
+  .ml-5 {
+    margin-left: 2.5em;
+  }
+  /* About */
+  #about-text {
+    width: 80%;
+    max-width: 40em;
+    margin: 1.5em !important;
+  }
+  /* Skills */
+
+  /* Contact */
+  #contact-form {
+    margin: 0 1rem !important;
+  }
+  #contact-form input {
+    width: 80vw;
+  }
+  textarea {
+    width: 80vw;
+    height: 15vh;
+  }
 }
+
+
+
+
 #skill-comment {
   width: 70%;
   max-width: 40em;
   font-size: 1em;
   margin-left: 10%;
 }
+#skill-comment pre {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #about, #skills, #contact {
   margin-top: 30rem;
   margin-bottom: 30rem;
 }
+

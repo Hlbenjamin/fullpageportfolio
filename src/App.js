@@ -16,6 +16,7 @@ const App = () => (
     scrollingSpeed={800}
     easing={'easeInOutCubic'}
     scrollBar={true}
+    responsiveHeight={415}
     anchors={anchors}
     navigation={true}
     navigationPosition={"right"}

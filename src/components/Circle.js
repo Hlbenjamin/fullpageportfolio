@@ -57,7 +57,7 @@ class Circle extends Component {
                     <VisibilitySensor>
                     {({ isVisible }) => (
                     <path className={isVisible ? "circle active" : "circle"}
-                        stroke-dasharray="50, 100"
+                        stroke-dasharray="25, 100"
                         d="M18 2.0845
                         a 15.9155 15.9155 0 0 1 0 31.831
                         a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -144,7 +144,7 @@ class Circle extends Component {
                         a 15.9155 15.9155 0 0 1 0 -31.831"
                     />)}
                     </VisibilitySensor>
-                    <text x="18" y="20.35" class="percentage">Git</text>
+                    <text id="ability" x="18" y="20.35" class="percentage">Git</text>
                     </svg>
                 </div>
             </div>
