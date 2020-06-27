@@ -453,3 +453,9 @@ input:focus {
     height: 25vh;
   }
 }
+/* Margin to fix code visibility */
+#about,
+#skills,
+#contact {
+  margin-top: 30rem;
+}
