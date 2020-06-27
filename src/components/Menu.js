@@ -7,9 +7,7 @@ class Menu extends Component {
       <div>
         <ul id="menu">
           <div className="nav-logo">
-            <h1 className="logo-letters">
-              HB
-            </h1>
+            <h1 id="logo-letters">HB</h1>
           </div>
           <div className="nav-items">
             <li data-menuanchor="firstPage">

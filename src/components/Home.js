@@ -12,7 +12,7 @@ class Home extends Component {
         <div className="open-tag">
           <Fade bottom duration={600}>
             <pre>
-              <span className="code">{`<body>`}</span>
+              <span className="code ml-0">{`<body>`}</span>
             </pre>
           </Fade>
           <Fade bottom delay={200}>
@@ -31,7 +31,7 @@ class Home extends Component {
             Hi, <br></br>I'm Hunter, <br></br>a web developer.
           </h1>
           <Typist>
-            <span className="ml-4">
+            <span className="ml-2">
               <Typist.Delay ms={2000} />
             </span>
             <span className="grey">Entry Level Full Stack Deverloper</span>
@@ -49,7 +49,7 @@ class Home extends Component {
               <span className="code ml-2">{`<a href="contact">`}</span>
             </pre>
           </Fade>
-          <a href="#4thPage" className="contact-button ml-4">
+          <a href="#4thPage" className="contact-button ml-2">
             Contact Me
           </a>
           <Fade bottom delay={1000}>

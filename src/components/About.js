@@ -6,7 +6,7 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="section" id="about">
+      <div className="section fp-auto-height-responsive" id="about">
         <div className="open-tag">
           <Fade bottom duration={600}>
             <pre>
@@ -32,15 +32,13 @@ class About extends Component {
             </pre>
           </Fade>
           <p id="about-text" className="ml-4">
-            My name is Hunter Benjamin. I am 27 years old and was born and raised 
-            in Los Angeles, California. I have spent the last 7 years working in 
-            the film and televsion industry.
+            My name is Hunter Benjamin. I am 27 years old and I have spent the 
+            last 7 years working in the film and televsion industry.
             <br></br>
             <br></br>
-            I spent the 6 months prior to the Covid-19 pandemic in Indonesia 
-            working on my photography and surfing. Upon coming home I decided it 
-            was time for a career change. I began learning Python and immediately 
-            fell in love with programming.
+            For 6 months prior to the Covid-19 pandemic I lived in Indonesia 
+            working on my photography and surfing. Upon coming home I began 
+            learning Python and immediately fell in love with programming.
             <br></br>
             <br></br>
             I’ve spent the last 4 months taking Codecademy courses on Computer Science, 

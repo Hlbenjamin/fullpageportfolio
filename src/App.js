@@ -14,12 +14,10 @@ const App = () => (
   <ReactFullpage
     menu={"#menu"}
     scrollingSpeed={800}
-    easing={'easeInOutCubic'}
+    easing={"easeInOutCubic"}
     scrollBar={true}
-    responsiveHeight={415}
     anchors={anchors}
-    navigation={true}
-    navigationPosition={"right"}
+    navigation={false}
     navigationTooltips={anchors}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });

@@ -14,7 +14,7 @@ class Contact extends Component {
             </pre>
           </Fade>
         </div>
-        <div className="middle-section">
+        <div className="middle-content">
           <Fade bottom delay={200}>
             <pre>
               <span className="code ml-2">{`<h1>`}</span>
@@ -44,7 +44,7 @@ class Contact extends Component {
           </Fade>
           <Fade bottom delay={1800}>
             <pre>
-              <span className="code">{`</body>`}</span>
+              <span className="code ml-0">{`</body>`}</span>
             </pre>
           </Fade>
         </div>

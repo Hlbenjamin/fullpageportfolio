@@ -36,8 +36,8 @@ class Skills extends Component {
           <div id="charts">
             <Circle />
             <div id="skill-comment">
-              <p className="grey">
-                <pre className="inline grey">{`<--! `}</pre>Additional skills include Adobe Photoshop, Adobe Illustrator, Teamwork and Communication.<pre className="inline grey">{` -->`}</pre>
+              <p>
+                Additional skills include Git, Command Line, Adobe Photoshop and Illustrator, Teamwork and Communication.
               </p>
             </div>
           </div>

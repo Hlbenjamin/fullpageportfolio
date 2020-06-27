@@ -1,0 +1,113 @@
+/* Full-Screen and Menu Side */
+@media screen and (min-width: 769px) and (min-height: 415px) {
+  .fp-tableCell {
+    margin-left: 4rem;
+  }
+  #menu {
+    flex-direction: column;
+    height: 100vh;
+    width: 4rem;
+  }
+  .nav-items {
+    flex-direction: column;
+  }
+  .nav-items a {
+    margin: 0.75rem 0;
+    font-size: 1.5rem;
+  }
+  .nav-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  #social a {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+  }
+  #contact-form {
+    margin-left: 3rem !important;
+  }
+}
+@media screen and (min-width: 415px) {
+  #about-text {
+    width: 80%;
+    max-width: 40rem;
+    font-size: 2.4vh;
+    margin-left: 3rem !important;
+  }
+  .flex-wrapper {
+    margin-left: 3rem !important;
+    max-width: 60vh !important;
+  }
+  #skill-comment {
+    width: 80% !important;
+    max-width: 60vh !important;
+    font-size: 2vh !important;
+    margin-left: 4rem !important;
+  }
+}
+/* ------------- */
+/* Top Large*/
+/* @media only screen and (max-width: 768px) {
+  .fp-tableCell {
+    height: calc(100vh - 4rem) !important;
+    margin-top: 4rem;
+  }
+  #menu {
+    flex-direction: row;
+    height: 4rem;
+    width: 100%;
+  }
+  .nav-items {
+    min-width: calc(100% - 4rem);
+  }
+  .nav-items a {
+    font-size: 1.5rem;
+  }
+  .nav-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  #social {
+    display: none;
+  }
+  .nav-items i, .nav-items a {
+    height: 100%;
+    width: 3rem;
+  }
+} */
+
+/* @media screen and (max-width: 415px) {
+  .fp-tableCell{
+    height: calc(100vh - 3rem) !important;
+    margin-top: 3rem;
+  }
+  #menu {
+    flex-direction: row;
+    height: 3rem;
+    width: 100%;
+  }
+  .nav-items {
+    min-width: calc(100% - 3rem);
+  }
+  .nav-items a {
+    font-size: 1rem;
+  }
+  .nav-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  #social {
+    display: none;
+  }
+  .nav-items i, .nav-items a {
+    height: 100%;
+    width: 3rem;
+  }
+  .logo-letters {
+    font-size: 1.5rem;
+  }
+} */
