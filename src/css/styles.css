@@ -296,8 +296,9 @@ input:focus {
   background-color: rgb(30, 30, 30);
   color: rgb(8, 253, 237);
   border: 0.1em solid rgb(8, 253, 237);
-  padding: 1em 2em;
-  margin-top: 1em;
+  padding: 0.5em 2em;
+  margin-top: 0.5em;
+  font-size: 1em;
 }
 .submit-button:hover {
   color: rgb(30, 30, 30);
@@ -430,15 +431,15 @@ input:focus {
   }
   /* Circle Chart */
   .flex-wrapper {
-    max-width: 40rem;
+    max-width: 20em;
     margin-left: 3rem;
   }
   .single-chart {
     width: 33%;
   }
   #skill-comment {
-    max-width: 40rem;
-    margin-left: 3rem;
+    max-width: 25em;
+    margin-left: 3.5rem;
     font-size: 0.75em;
     text-align: center;
   }
