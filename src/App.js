@@ -8,14 +8,15 @@ import Contact from "./components/Contact";
 
 import "./css/styles.css";
 
-const anchors = ["firstPage", "secondPage", "3rdPage", "4thPage"];
+const anchors = ["Home", "About", "Skills", "Contact"];
 
 const App = () => (
   <ReactFullpage
     menu={"#menu"}
-    scrollingSpeed={800}
-    easing={"easeInOutCubic"}
+    scrollingSpeed={1200}
+    easing={"easeInOutQuart"}
     scrollBar={true}
+    bigSectionsDestination={"top"}
     anchors={anchors}
     navigation={false}
     navigationTooltips={anchors}

@@ -434,9 +434,6 @@ input:focus {
     max-width: 20em;
     margin-left: 3rem;
   }
-  .single-chart {
-    width: 33%;
-  }
   #skill-comment {
     max-width: 25em;
     margin-left: 3.5rem;
@@ -458,4 +455,20 @@ input:focus {
 #skills,
 #contact {
   margin-top: 30rem;
+}
+#contact {
+  margin-bottom: 50rem;
+}
+@media screen and (min-width: 416px) {
+  /* Circle Chart and Skills */
+  .flex-wrapper {
+    max-width: 20em !important;
+    margin-left: 3rem !important;
+  }
+  #skill-comment {
+    max-width: 25em;
+    margin-left: 3.5rem;
+    font-size: 0.75em;
+    text-align: center;
+  }
 }
