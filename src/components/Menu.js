@@ -33,7 +33,11 @@ class Menu extends Component {
           </div>
           <div id="social">
             <li>
-              <a href="https://github.com/Hlbenjamin" target="_blank">
+              <a
+                href="https://github.com/Hlbenjamin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa fa-github"></i>
               </a>
             </li>
@@ -41,12 +45,17 @@ class Menu extends Component {
               <a
                 href="https://www.instagram.com/hunterlbenjamin/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="www.linkedin.com/in/hunterlbenjamin" target="_blank">
+              <a
+                href="www.linkedin.com/in/hunterlbenjamin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa fa-linkedin"></i>
               </a>
             </li>
