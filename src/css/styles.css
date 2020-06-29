@@ -310,12 +310,11 @@ input:focus {
 /* ------------- */
 /* ------------- */
 /* ------------- */
-
 /* Top Small - Phone */
 @media screen and (max-width: 415px) {
   .fp-tableCell {
-    height: calc(100vh - 3rem) !important;
     margin-top: 3rem !important;
+    height: calc(var(--vh, 1vh) * 100 - 3rem) !important;
   }
   #menu {
     flex-direction: row;
