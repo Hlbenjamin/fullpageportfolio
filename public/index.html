@@ -49,27 +49,23 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="/__/firebase/7.15.5/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.15.5/firebase-analytics.js"></script>
 
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyDnf9--n3uMVi2N1w7KHiVYT1XwyPXH8UE",
-        authDomain: "hunterlbenjamin-55bab.firebaseapp.com",
-        databaseURL: "https://hunterlbenjamin-55bab.firebaseio.com",
-        projectId: "hunterlbenjamin-55bab",
-        storageBucket: "hunterlbenjamin-55bab.appspot.com",
-        messagingSenderId: "598193145001",
-        appId: "1:598193145001:web:4cc48f3bf084c348d715b8",
-        measurementId: "G-9JC17V53LS",
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
+      let vh = window.innerHeight * 0.01;
+
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+
+      window.addEventListener("resize", () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
+      });
     </script>
   </body>
 </html>
