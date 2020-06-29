@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Circle from "./Circle";
-import Typist from "react-typist";
-
 
 class Skills extends Component {
   state = {};
@@ -37,7 +35,8 @@ class Skills extends Component {
             <Circle />
             <div id="skill-comment">
               <p>
-                Additional skills include Git, Command Line, Adobe Photoshop and Illustrator, Teamwork and Communication.
+                Additional skills include Git, Command Line, jQuery, Bootstrap,
+                Adobe Photoshop and Illustrator.
               </p>
             </div>
           </div>
